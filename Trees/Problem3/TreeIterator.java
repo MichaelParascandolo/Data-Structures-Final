@@ -1,3 +1,4 @@
+package Trees.Problem3;
 import java.util.NoSuchElementException;
 import java.util.Stack;
 
@@ -30,8 +31,4 @@ public class TreeIterator {
         }
         return current;
     }
-    public void print(Node current) {
-        System.out.println(current.getData() + " ");
-    }
-
 }

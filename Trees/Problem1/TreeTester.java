@@ -1,3 +1,4 @@
+package Trees.Problem1;
 public class TreeTester {
    public static void main(String[] args) {
        // constructs the tree

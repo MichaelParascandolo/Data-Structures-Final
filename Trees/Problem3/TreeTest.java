@@ -1,3 +1,4 @@
+package Trees.Problem3;
 public class TreeTest {
     public static void main(String[] args) {
         Node root = new Node(10);

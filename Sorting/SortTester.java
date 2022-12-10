@@ -11,7 +11,7 @@ public class SortTester {
         ArrayList<Integer> nums5 = new ArrayList<>();
 
         Random ran = new Random();
-        int x = 1000; // bound for random numbers
+        int x = 100; // bound for random numbers
         int y = 10; // number of random numbers
         
         for(int i = 0; i <= y; i++) {
@@ -27,21 +27,21 @@ public class SortTester {
         sort.bubbleSort(nums1);
         sort.print(nums1, "After bubble sort");
 
-        // sort.print(nums2, "Before minHeap sort");
-        // sort.sortHeap(nums2);
-        // sort.print(nums2, "After minHeap sort");
+        sort.print(nums2, "Before minHeap sort");
+        sort.sortHeap(nums2);
+        sort.print(nums2, "After minHeap sort");
         
-        // sort.print(nums3, "Before selectionSort");
-        // sort.selectionSort(nums3);
-        // sort.print(nums3, "After selectionSort");
+        sort.print(nums3, "Before selectionSort");
+        sort.selectionSort(nums3);
+        sort.print(nums3, "After selectionSort");
 
-        // sort.print(nums4, "Before insertionSort");
-        // sort.insertionSort(nums4);
-        // sort.print(nums4, "After insertionSort");
+        sort.print(nums4, "Before insertionSort");
+        sort.insertionSort(nums4);
+        sort.print(nums4, "After insertionSort");
 
-        // sort.print(nums5, "Before mergeSort");
-        // sort.mergeSort(nums5);
-        // sort.print(nums5, "After mergeSort");
+        sort.print(nums5, "Before mergeSort");
+        sort.mergeSort(nums5);
+        sort.print(nums5, "After mergeSort");
 
     }
 }

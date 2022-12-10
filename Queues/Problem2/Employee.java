@@ -1,3 +1,4 @@
+package Queues.Problem2;
 public class Employee {
     private int salary;
     private String name;

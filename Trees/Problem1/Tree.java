@@ -1,3 +1,4 @@
+package Trees.Problem1;
 public class Tree {
     private int data;
     private Tree left;
